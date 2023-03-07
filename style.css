@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #F5ECCE!important;
+    font-family: 'IBMPlexSansKR-Regular'!important;
+}
+
+.card {
+    border-radius: 0!important;
+    border: none!important;
+
+    overflow: auto;
+}
+
+.card-title {
+    margin-bottom: 0!important;
+}
+
+.card-form {
+    width: 100%;
+    height: 195px;
+    border: none;
+}
+.card-form:focus {
+    outline: 0;
+}
+
+.card-form-title {
+    width: 100%;
+    border: none;
+
+}
+.card-form-title:focus {
+    outline: 0;
+}
+
+.search-form {
+    width: 400px!important;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0,0);
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0,0.4);
+}
+
+.search-form:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+@media screen and (max-width: 463px) {
+    .search-form {
+    width: 94%!important;
+}
+}
+
+.btn {
+    border-radius: 0!important;
+}
